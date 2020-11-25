@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <HBox prefHeight="49.0" prefWidth="800.0">
+        <opaqueInsets>
+            <Insets top="1.0" />
+        </opaqueInsets>
+      <VBox prefHeight="200.0" prefWidth="413.0">
+         <children>
+              <ComboBox fx:id="outputCB" onAction="#onOutputCBAction" promptText="Output" />
+            <Label fx:id="outputL" text="Output" />
+            <Button fx:id="setOptionsBtn" mnemonicParsing="false" text="Set" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="440.0">
+         <children>
+              <ComboBox fx:id="secondOutputCD" onAction="#onSecondOutputCDAction" promptText="SecondOutput" />
+             <Label fx:id="secondOutputL" text="Output" />
+            <CheckBox fx:id="enableSecondOutputChB" mnemonicParsing="false" text="Enable second output" />
+         </children>
+      </VBox>
+    </HBox>
+   <TabPane fx:id="tabPane" prefHeight="536.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" />
+</VBox>

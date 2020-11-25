@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Sound_player_training_3">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sound_player_training_3</output-path>
+    <root id="root">
+      <element id="archive" name="Sound_player_training_3.jar">
+        <element id="module-output" name="Sound_player_training_3" />
+      </element>
+    </root>
+  </artifact>
+</component>
